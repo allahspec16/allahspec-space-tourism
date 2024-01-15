@@ -1,0 +1,148 @@
+main{
+    background-image:  
+    url(./assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.moon-nav ul li a, .moon-nav ul li a:link{
+    font-size: 25px;
+}
+.moon-nav ul{
+    margin: 0 0 5rem 0;
+}
+.active-list a:visited{
+    color: darkslateblue;
+}
+.moon_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+.destination{
+    margin: 3rem 0;
+}
+.destination-heading{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-left: -1rem;
+}
+.number{
+    font-weight: 700;
+    opacity: 0.6;
+    margin-right: 3rem;
+}
+nav ul{
+    margin: 3rem 0;
+}
+nav ul a, nav ul a:link{
+    font-weight: 100;
+    font-size: 18px;
+}
+.moon{
+    font-size: 7rem;
+    margin: 3rem 0;
+    font-weight: 100;
+}
+.moon-paragraph{
+    font-size: 16px;
+    line-height: 1.4;
+    opacity: 0.5;
+    margin: 2rem 0;
+}
+.border{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 5rem 0 2rem 0;
+}
+.moon-flex{
+    display: flex;
+    gap: 5rem;
+}
+.moon_head-3{
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    opacity: 0.5;
+    font-weight: 900;
+}
+.moon_head-1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+/* ======================================= */
+@media (max-width:900px){
+    main{
+        background-image:  
+        url('./assets/destination/background-destination-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    a, a:link{
+        font-size: 14px !important;
+    }
+    .header--nav{
+        padding: .5rem 4.5rem;
+    }
+    .line{
+        left: 3rem;
+        width: 40rem;
+    }
+    .destination-heading{
+        text-align: center;
+    }
+    .moon_grid{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .moon-nav ul{
+        justify-content: center;
+        margin: 5rem 0;
+    }
+    .moon-flex{
+        justify-content: center;
+    }
+}
+@media(max-width:450px){
+    .moon-flex{
+        flex-direction: column;
+    }
+}
+
+/* ================================= */
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.rotating-image {
+    width: 80%; /* Set your preferred width */
+    height: 80%; /* Set your preferred height */
+    margin: 50px auto; /* Adjust as needed */
+    display: block;
+    animation: rotate360 10s linear infinite; /* Adjust the duration and animation type */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

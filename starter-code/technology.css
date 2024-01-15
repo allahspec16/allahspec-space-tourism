@@ -1,0 +1,139 @@
+main{
+    background-image:  
+    url('./assets/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.destination{
+    margin: 3rem 0;
+}
+.destination-heading{
+    font-size: 2.5rem;
+    font-weight: 100;
+    display: flex;
+    gap: 5rem;
+}
+.number{
+    opacity: 0.6;
+}
+.hidden.mobile{
+    display: none;
+}
+.vehicle_grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.no{
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 8rem;
+    width: 8rem;
+    margin: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+.active-no{
+    background-color: #fff;
+    /* color: #000; */
+}
+.no a, .no a:link{
+    /* background-color: #fff; */
+    color: #fff;
+    font-size: 3rem;
+}
+.active-no a:visited{
+    color: #000;
+}
+.no:hover{
+    border: 1px solid rgba(255, 255, 255);
+}
+.vehicle-heading{
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: 0.7;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+.vehicle_sub-heading{
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 100;
+}
+.vehicle-paragraph{
+    line-height: 1.6;
+    opacity: 0.7;
+    font-size: 1.8rem;
+    margin: 3rem 0;
+}
+.vehicle-image img{
+    width: 180rem;
+}
+/* ====================================== */
+@media(max-width:900px){
+    main{
+        background-image:  
+        url(./assets/technology/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .vehicle_grid{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .vehicle-number{
+        display: flex;
+        gap: 3rem;
+    }
+    .hidden.desktop{
+        display: none;
+    }
+    .hidden.mobile{
+        display: block;
+    }
+}
+
+@media(max-width:500px){
+    main{
+        background-image: 
+        url('./assets/technology/background-technology-tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .vehicle_grid{
+        text-align: center;
+    }
+    .n0{
+        font-size: 3rem;
+        height: 6rem;
+        width: 6rem;
+    }
+    .vehicle-heading{
+        font-size: 1.5rem;
+    }
+    .vehicle_sub-heading{
+        font-size: 3rem;
+    }
+    .vehicle-paragraph{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

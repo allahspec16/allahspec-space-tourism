@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!--  -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="destination.css">
+  <script src="main.js" defer></script>
+  
+  <title>ALLAHSPEC | Space tourism website</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="header__container">
+        <div class="header--flex">
+          <div class="header-logo">
+            <img src="./assets/shared/logo.svg">
+          </div>
+          <div class="line"></div>
+          <div class="hidden header--nav">
+            <nav>
+              <ul>
+                <li>
+                  <a href="index.html">
+                    <strong>00</strong>HOME
+                  </a>
+                </li>
+                <li class="active">
+                  <a href="destination-moon.html">
+                    <strong>01</strong>DESTINATION
+                  </a>
+                </li>
+                <li>
+                  <a href="crew-commander.html">
+                    <strong>02</strong>CREW
+                  </a>
+                </li>
+                <li>
+                  <a href="technology-spaceport.html">
+                    <strong>03</strong>TECHNOLOGY
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hidden close">
+            <img src="./assets/shared/icon-close.svg">
+          </div>
+          <div class="hidden menu">
+            <img src="./assets/shared/icon-hamburger.svg">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="section__container">
+      <div class="destination">
+        <h1 class="destination-heading">
+           <span class="number">01</span> Pick your destination
+        </h1>
+      </div>
+      <section class="moon_grid">
+        <div class="moon-image">
+          <img src="./assets/destination/image-moon.png" class="rotating-image">
+        </div>
+        <div class="moon-content">
+          <nav class="moon-nav">
+            <ul>
+              <li class="active-list">
+                <a href="./destination-moon.html">
+                  Moon
+                </a>
+              </li>
+              <li>
+                <a href="./destination-mars.html">
+                  Mars
+                </a>
+              </li>
+              <li>
+                <a href="./destination-europa.html">
+                  Europa
+                </a>
+              </li>
+              <li>
+                <a href="./destination-titan.html">
+                  Titan
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <h1 class="moon">MOON</h1>
+          <p class="moon-paragraph">
+            See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+            regain perspective and come back refreshed. While you’re there, take in some history 
+            by visiting the Luna 2 and Apollo 11 landing sites.          
+          </p>
+          <div class="border"></div>
+          <div class="moon-flex">
+            <div class="flex-1">
+              <h3 class="moon_head-3">
+                Avg. distance
+              </h3>
+              <h1 class="moon_head-1">
+                384,400 km
+              </h1>
+            </div>
+            <div class="flex-1">
+              <h3 class="moon_head-3">
+                Est. travel time
+              </h3>
+              <h1 class="moon_head-1">
+                3 days
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="attribution">
+      <p>Coded by</p>
+      <a>Allahspec</a>
+    </div>
+  </main>
+</body>
+</html>
